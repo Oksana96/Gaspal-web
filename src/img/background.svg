@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="1024px" viewBox="0 0 1440 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Desktop HD Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#4A90E2" offset="0%"></stop>
+            <stop stop-color="#136BF2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#3177D2" offset="0%"></stop>
+            <stop stop-color="#327FE4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#125AC3" offset="0%"></stop>
+            <stop stop-color="#216AD0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#1F64C4" offset="0%"></stop>
+            <stop stop-color="#357AD4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#2E73CF" offset="0%"></stop>
+            <stop stop-color="#4A90E2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#0448B1" offset="0%"></stop>
+            <stop stop-color="#488FE2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-7">
+            <stop stop-color="#094DB4" offset="0%"></stop>
+            <stop stop-color="#3683E8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-8">
+            <stop stop-color="#094DB4" offset="0%"></stop>
+            <stop stop-color="#2C7CEB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-9">
+            <stop stop-color="#1155BA" offset="0%"></stop>
+            <stop stop-color="#498FE2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desktop-HD-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="url(#linearGradient-1)" fill-rule="nonzero" x="0" y="0" width="1440" height="1024"></rect>
+        <g id="sign" transform="translate(878.000000, 223.000000)">
+            <path d="M9.19982876,31.3938538 C9.13589502,31.4308043 9.63432306,32.0714302 10.1312684,32.1274079 C10.6018385,32.1804146 11.0731473,31.655553 10.9924267,31.4633129 C12.5453906,29.8607925 17.7072598,23.9236943 19.8444904,14.0323895 C20.2780332,12.0263449 20.3754109,10.1013359 20.1340834,8.31111059 C19.405867,2.8742832 15.9468388,0 10.1312684,0 C4.3173915,0 0.858363373,2.8742832 0.128453398,8.31111059 C-0.112027383,10.1021628 -0.0146496018,12.0271718 0.418893214,14.0323895 C2.53495473,23.8277746 7.6155346,29.7417198 9.19982876,31.3938538 Z" id="Shape" fill="#E74C3C" fill-rule="nonzero"></path>
+            <ellipse id="Oval-9" fill="#3E88E5" cx="9.67105263" cy="10.557377" rx="5.06578947" ry="5.04918033"></ellipse>
+        </g>
+        <g id="sign" transform="translate(849.000000, 692.000000)">
+            <path d="M13.1022901,45.7613595 C13.0112365,45.8152205 13.7210919,46.7490312 14.4288358,46.8306272 C15.0990162,46.9078926 15.7702489,46.1428263 15.6552875,45.8626068 C17.8670008,43.5266875 25.2184754,34.8724557 28.2622946,20.454361 C28.8797413,17.5302432 29.0184256,14.7242472 28.6747297,12.1147191 C27.6376122,4.18970884 22.7113042,0 14.4288358,0 C6.14877925,0 1.22247123,4.18970884 0.18294185,12.1147191 C-0.159548108,14.7254525 -0.0208637941,17.5314485 0.59658289,20.454361 C3.61025333,34.7326381 10.8459567,43.3531207 13.1022901,45.7613595 Z" id="Shape" fill="#F5A623" fill-rule="nonzero"></path>
+            <ellipse id="Oval-9" fill="#2376EE" cx="13.7421696" cy="15.3790108" rx="7.55819326" ry="7.68950539"></ellipse>
+        </g>
+        <rect id="Rectangle" fill="#185DBF" fill-rule="nonzero" transform="translate(1309.672469, 446.208721) rotate(41.000000) translate(-1309.672469, -446.208721) " x="1294.17247" y="309.708721" width="31" height="273"></rect>
+        <rect id="Rectangle" fill="#1056BF" fill-rule="nonzero" transform="translate(1240.829485, 934.263913) rotate(41.000000) translate(-1240.829485, -934.263913) " x="1229.32948" y="810.763913" width="23" height="247"></rect>
+        <rect id="Rectangle" fill="#1056BF" fill-rule="nonzero" transform="translate(1346.043462, 763.973697) rotate(41.000000) translate(-1346.043462, -763.973697) " x="1335.54346" y="679.473697" width="21" height="169"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-2)" fill-rule="nonzero" transform="translate(845.361439, 349.661579) rotate(41.000000) translate(-845.361439, -349.661579) " x="834.861439" y="265.161579" width="21" height="169"></rect>
+        <rect id="Rectangle" fill="#135BC4" fill-rule="nonzero" transform="translate(1159.495856, 874.783135) rotate(41.000000) translate(-1159.495856, -874.783135) " x="1150.99586" y="751.283135" width="17" height="247"></rect>
+        <rect id="Rectangle" fill="#2370DC" fill-rule="nonzero" transform="translate(860.327958, 629.783135) rotate(41.000000) translate(-860.327958, -629.783135) " x="851.827958" y="506.283135" width="17" height="247"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-3)" fill-rule="nonzero" transform="translate(1078.094346, 792.559999) rotate(173.000000) translate(-1078.094346, -792.559999) " x="1072.59435" y="641.059999" width="11" height="303"></rect>
+        <rect id="Rectangle" fill="#2166C6" fill-rule="nonzero" transform="translate(1236.533023, 379.779186) rotate(41.000000) translate(-1236.533023, -379.779186) " x="1228.03302" y="243.279186" width="17" height="273"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-4)" fill-rule="nonzero" transform="translate(1146.629742, 312.103115) rotate(180.000000) translate(-1146.629742, -312.103115) " x="1140.12974" y="142.603115" width="13" height="339"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-5)" fill-rule="nonzero" transform="translate(952.500000, 164.000000) rotate(180.000000) translate(-952.500000, -164.000000) " x="942" y="4" width="21" height="320"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-6)" fill-rule="nonzero" transform="translate(1036.440444, 396.356038) rotate(130.000000) translate(-1036.440444, -396.356038) " x="1024.94044" y="-180.643962" width="23" height="1154"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-7)" fill-rule="nonzero" transform="translate(1091.542964, 661.130517) scale(-1, 1) rotate(-130.000000) translate(-1091.542964, -661.130517) " x="1080.04296" y="190.630517" width="23" height="941"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-8)" fill-rule="nonzero" transform="translate(939.214755, 834.726278) scale(-1, 1) rotate(-130.000000) translate(-939.214755, -834.726278) " x="916.214755" y="412.726278" width="46" height="844"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-9)" fill-rule="nonzero" transform="translate(1242.162880, 208.586010) rotate(130.000000) translate(-1242.162880, -208.586010) " x="1227.16288" y="-72.4139902" width="30" height="562"></rect>
+        <g id="sign" transform="translate(1329.000000, 582.000000)">
+            <path d="M22.692838,76.4428606 C22.5351352,76.5328335 23.7645871,78.0927339 24.9903817,78.2290374 C26.1511175,78.3581067 27.3136755,77.0800884 27.1145653,76.6119909 C30.9451973,72.7099136 43.6777669,58.2533014 48.9495854,34.1683439 C50.0189876,29.2837003 50.2591854,24.5963753 49.6639127,20.2372436 C47.8676512,6.99877215 39.3354093,0 24.9903817,0 C10.6495315,0 2.11728951,6.99877215 0.316850696,20.2372436 C-0.276333322,24.5983888 -0.0361355681,29.2857137 1.0332666,34.1683439 C6.25286823,58.0197406 18.7849249,72.419976 22.692838,76.4428606 Z" id="Shape" fill="#7ED321" fill-rule="nonzero"></path>
+            <ellipse id="Oval-9" fill="#2A7AEC" cx="23.801093" cy="25.6901366" rx="13.0906012" ry="12.8450683"></ellipse>
+        </g>
+    </g>
+</svg>

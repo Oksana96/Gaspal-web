@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Raleway:500,700');
+
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,4 +12,256 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 3;
+  background-color: rgba(0,0,0, 0.5);
+}
+.popup_inner {
+  position: absolute;
+  left: 30%;
+  right: 30%;
+  top: 20%;
+  margin: auto;
+  background: white;
+  border-radius: 16px;
+}
+
+.popup-title {
+  color:#4A4A4A;
+  font-size: 22px;
+}
+
+.popup-btn{
+  color:#4E9AD6;
+  background-color: white;
+  border-radius: 8px;
+  font-size: 18px;
+  border: 1px solid #4E9AD6;
+  width: 50%;
+}
+
+.popup-btn:hover{
+  color:white;
+  background-color: #4E9AD6;
+}
+
+.list-container{
+  height: 600px;
+  overflow-y: scroll
+}
+
+
+
+.list-title{
+  color: #4E9AD6;
+  font-size: 24px;
+}
+
+.list-name{
+  color: #4A4A4A;
+  font-size: 18px;
+}
+
+.list-address{
+  color: #9B9B9B;
+  font-size:12px;
+}
+
+.map-color{
+  height: 51.89px;
+  width: 7px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.details-brand-name{
+  color: #4A4A4A;
+  font-size: 20px;
+  font-weight:600;
+}
+.details-address{
+  color: #9B9B9B;
+}
+
+.details-info{
+  color: white;
+  font-weight: 600;
+  background-color: #4E9AD6;
+  height:26px;
+}
+
+.details-retour{
+  color: #4E9AD6;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.details-retour:hover{
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(28, 97, 150);
+  
+}
+
+.list-station:hover{
+  cursor: pointer
+}
+
+.landing-title{
+  font-family: 'Raleway', sans-serif;
+  color:white;
+  font-size: 48px;
+  font-weight:600;
+}
+
+.landing-subtitle{
+  font-family: 'Raleway', sans-serif;
+  color:white;
+  font-size: 22px;
+}
+
+
+.react-autosuggest__container {
+  position: relative;
+}
+
+.react-autosuggest__input {
+  width: 240px;
+  height: 30px;
+  padding: 10px 20px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.react-autosuggest__input--focused {
+  outline: none;
+}
+
+.react-autosuggest__input--open {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.react-autosuggest__suggestions-container {
+  display: none;
+}
+
+.react-autosuggest__suggestions-container--open {
+  display: block;
+  position: absolute;
+  top: 51px;
+  width: 280px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  z-index: 2;
+}
+
+.react-autosuggest__suggestions-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.react-autosuggest__suggestion {
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.react-autosuggest__suggestion--highlighted {
+  background-color: #ddd;
+}
+
+
+.feature-title{
+  font-family: 'Raleway', sans-serif;
+  color: #4C8CEA;
+  font-size: 24px;
+  font-weight: 700;
+  max-width: 80%;
+}
+
+.feature-subtitle{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  max-width: 80%;
+  margin-top: 6px;
+}
+
+.title{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #4A4A4A;
+
+}
+
+.blog-text{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: #4C8CEA;
+}
+
+.blog-text:hover{
+  color: #2659A1;
+}
+
+.blog-post:hover{
+  text-decoration: none
+}
+
+.navbar-style{
+  background-color: #458DE3;
+  color: white;
+
+}
+
+
+footer {
+  width: 100%;
+  background-color: #458DE3;
+  color:white;
+  padding: 60px 50px 75px 50px;
+}
+.text-footer {
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  font-weight: 400px;
+}
+
+.white-link {
+  font-size: 28px;
+  color: white;
+  padding: 15px;
+}
+.white-link:hover {
+  color: #C0E1F1;
+  text-decoration: none;
+}
+
+.padding-bottom {
+  padding-bottom: 30px
+}
+a {
+    color: #2D7BA5;
+}
+a:hover {
+  color: #1394CA;
 }

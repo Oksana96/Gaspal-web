@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="1024px" viewBox="0 0 1440 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Desktop HD Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#EFF6FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#EFF6FF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#EFF6FF" offset="53.4842194%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desktop-HD-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#EFF6FF" fill-rule="nonzero" transform="translate(572.388617, 677.186773) rotate(41.000000) translate(-572.388617, -677.186773) " x="556.888617" y="540.686773" width="31" height="273"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-1)" fill-rule="nonzero" transform="translate(65.250056, 255.313227) rotate(41.000000) translate(-65.250056, -255.313227) " x="49.750056" y="118.813227" width="31" height="273"></rect>
+        <rect id="Rectangle" fill="#EFF6FF" fill-rule="nonzero" transform="translate(608.500000, 995.661579) rotate(41.000000) translate(-608.500000, -995.661579) " x="598" y="911.161579" width="21" height="169"></rect>
+        <rect id="Rectangle" fill="#EFF6FF" fill-rule="nonzero" transform="translate(107.500000, 580.661579) rotate(41.000000) translate(-107.500000, -580.661579) " x="97" y="496.161579" width="21" height="169"></rect>
+        <rect id="Rectangle" fill="#EFF6FF" fill-rule="nonzero" transform="translate(421.576883, 1105.783135) rotate(41.000000) translate(-421.576883, -1105.783135) " x="413.076883" y="982.283135" width="17" height="247"></rect>
+        <rect id="Rectangle" fill="#EFF6FF" fill-rule="nonzero" transform="translate(122.576883, 860.783135) rotate(41.000000) translate(-122.576883, -860.783135) " x="114.076883" y="737.283135" width="17" height="247"></rect>
+        <rect id="Rectangle" fill="#EFF6FF" fill-rule="nonzero" transform="translate(340.060771, 1024.041023) rotate(173.000000) translate(-340.060771, -1024.041023) " x="334.560771" y="872.541023" width="11" height="303"></rect>
+        <rect id="Rectangle" fill="#EFF6FF" fill-rule="nonzero" transform="translate(499.105650, 611.594359) rotate(41.000000) translate(-499.105650, -611.594359) " x="490.60565" y="475.094359" width="17" height="273"></rect>
+        <rect id="Rectangle" fill="#EFF6FF" fill-rule="nonzero" transform="translate(408.500000, 543.500000) rotate(180.000000) translate(-408.500000, -543.500000) " x="402" y="374" width="13" height="339"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-2)" fill-rule="nonzero" transform="translate(210.500000, 356.500000) rotate(180.000000) translate(-210.500000, -356.500000) " x="204" y="149" width="13" height="415"></rect>
+        <rect id="Rectangle" fill="#EFF6FF" fill-rule="nonzero" transform="translate(321.519596, 646.981590) rotate(130.000000) translate(-321.519596, -646.981590) " x="310.019596" y="39.9815902" width="23" height="1214"></rect>
+        <rect id="Rectangle" fill="#EFF6FF" fill-rule="nonzero" transform="translate(353.954529, 892.241081) scale(-1, 1) rotate(-130.000000) translate(-353.954529, -892.241081) " x="342.454529" y="421.741081" width="23" height="941"></rect>
+        <rect id="Rectangle" fill="#EFF6FF" fill-rule="nonzero" transform="translate(201.193431, 1065.875393) scale(-1, 1) rotate(-130.000000) translate(-201.193431, -1065.875393) " x="178.193431" y="643.875393" width="46" height="844"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-3)" fill-rule="nonzero" transform="translate(613.336706, 529.214949) rotate(130.000000) translate(-613.336706, -529.214949) " x="596.336706" y="-228.785051" width="34" height="1516"></rect>
+    </g>
+</svg>
