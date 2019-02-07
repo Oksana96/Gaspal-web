@@ -16,7 +16,7 @@ const Navbar = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav ml-auto ">
-                    <NavLink to ='/' className="nav-item nav-link active">Accueil <span class="sr-only">(current)</span></NavLink>
+                    <NavLink to ='/' className="nav-item nav-link ">Accueil <span class="sr-only">(current)</span></NavLink>
                     <NavLink to = '/web-app' className="nav-item nav-link" >Application Web</NavLink>
                     <a className="nav-item nav-link" href="/#application-mobile">Application mobile</a>
                 </div>

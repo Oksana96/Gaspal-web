@@ -139,7 +139,7 @@ class Map extends PureComponent {
 
     return (
 
-      <div className="ml-0 mr-0" style={{ height: '600px' }}>
+      <div className="ml-0 mr-0" style={{ height: '90vh' }}>
         <ReactMapGL
 
           ref={this.mapRef}

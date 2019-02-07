@@ -8,11 +8,11 @@ const WebApp = (props) => {
     return (
         <div className="container-fluid pl-0 pr-0">
             <div className="row no-gutters">
-                <div className="col-md-9 ">
+                <div className="col-md-9 col-sm-12">
                     <Map/>
                 </div>
 
-                <div className="col-md-3 ">
+                <div className="col-md-3 col-sm-12">
                     {props.displayList ? (
                         <List />
                     ) : (
