@@ -158,9 +158,9 @@ class Landing extends Component {
                         {this.state.posts.map(post => {
                             return (
                                 <div className="col-md-4 col-sm-12">
-                                    <a  className = "blog-post" href={"https://blog.gaspalapp.com" + post.url} target="_blank">
+                                    <a  className = "blog-post" href={("https://blog.gaspalapp.com" + post.url)} target="_blank">
                                         <div className="card" style={{ width: "18rem" }}>
-                                            <img className="card-img-top" src={"https://blog.gaspalapp.com" + post.feature_image} alt="Card  cap" />
+                                            <img className="card-img-top" src={(post.feature_image.includes('https')) ? (post.feature_image) : ("https://blog.gaspalapp.com" + post.feature_image)} alt="Card  cap" />
                                             <div className="card-body">
                                                 <p className="card-text blog-text">{post.title}</p>
                                             </div>
