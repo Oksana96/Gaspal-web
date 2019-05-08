@@ -1,9 +1,11 @@
 import React from 'react';
-import { connect } from 'react-redux'
+import { connect } from 'react-redux';
+import { useTranslation } from 'react-i18next';
+
 
 const List = (props) => {
     const { stations, carbu } = props;
-
+    const { t } = useTranslation();
     const chooseStationInList = (station) => {
         props.setSelectedStation(station)  
         props.changeColumn()
@@ -11,7 +13,7 @@ const List = (props) => {
 
     return (
         <div className="list-container">
-            <div className="text-center mt-2 mb-2 list-title">Listes des stations</div>
+            <div className="text-center mt-2 mb-2 list-title">{t('list.title')}</div>
             <hr />
 
             {stations.map(station => {

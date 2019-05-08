@@ -8,6 +8,7 @@ import {Provider} from 'react-redux';
 import gaspalReducer from './reducers/gaspalReducer';
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.css'
+import './i18n';
 
 import logger from 'redux-logger'
 

@@ -1,0 +1,51 @@
+{
+    "landing": {
+      "h1": "Economisez votre argent avec Gaspal",
+      "subtitle": "Trouvez les stations-service les moins chères autour de vous.",
+      "address": "Address",
+      "news": "Nos nouvelles",
+      "mobile": "Application mobile",
+      "feature1": "Choisissez votre type de carburant",
+      "feature1_sub": "Gaspal permet de voir le prix du diesel, sans plomb 95, sans plomb 98, E85, E10 ainsi que GPL.",
+      "feature2": "Trouvez la station d’essence la moins chère à côté de vous",
+      "feature2_sub": "Gaspal permet de voir le prix du diesel, sans plomb 95, sans plomb 98, E85, E10 ainsi que GPL.",
+      "feature3": "Choisissez la répresentation des stations la plus comfortable",
+      "feature3_sub": "Les stations sont réprésentées soit sur une carte, soit sous forme d’une liste.",
+      "feature4": "Faites un itinéraire jusqu’à la station choisie",
+      "feature4_sub": "Les stations sont réprésentées soit sur une carte, soit sous forme d’une liste.",
+      "feature5": "Consultez vos dépense",
+      "feature5_sub": "L’argent que vous avez dépensé peut être ajout dans notre outil de suivi budgétaire afin de vous aider à gérer votre budget."
+    },
+
+    "footer": {
+        "download": "Téléchargez maintenant",
+        "contact": "Contactez-nous !"
+    },
+
+    "navbar": {
+        "home": "Accueil",
+        "web": "Application Web",
+        "mobile": "Applicaton mobile"
+    },
+
+    "popup": {
+        "type": "Choisissez votre type de carburant",
+        "diesel": "Diesel - B7",
+        "SP95": "Sans plomb 95 - E5",
+        "SP98": "Sans plomb 98 - E5",
+        "E85": "Superéthanol - E85",
+        "E10": "E10",
+        "GPL": "GPL - LGP"
+    },
+
+    "list": {
+        "title":"Listes des stations"
+    },
+
+    "details": {
+        "title": "Détails de la station",
+        "price": "Prix de l'essence",
+        "return": "Retourner à la liste des stations"
+
+    }
+}

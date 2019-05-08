@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Suspense } from 'react';
 import WebApp from './components/WebApp';
 import Landing from './components/Landing';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -17,6 +17,8 @@ class App extends Component {
     return (
       <BrowserRouter>
       <div className="App">
+
+      <Suspense fallback={(<div>Loading</div>)}>
         
         <Navbar/>
         <Switch>
@@ -24,6 +26,7 @@ class App extends Component {
           <Route path = '/web-app' component = {WebApp}/> 
           </Switch> 
           <Footer/>
+      </Suspense>
         
       </div>
       </BrowserRouter>

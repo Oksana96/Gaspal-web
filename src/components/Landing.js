@@ -8,6 +8,7 @@ import * as geo from '../helpers/mapbox-geocoder';
 import Autosuggest from 'react-autosuggest';
 import { connect } from 'react-redux';
 import axios from 'axios';
+import { withTranslation } from 'react-i18next';
 
 
 geo.setAccessToken(process.env.REACT_APP_MAPBOX_ACCESS_TOKEN)
@@ -101,9 +102,10 @@ class Landing extends Component {
     }
 
     render() {
+        const { t } = this.props;
         const { suggestions, value } = this.state
         const inputProps = {
-            placeholder: 'Adresse',
+            placeholder: t('landing.address'),
             value,
             onChange: this.onChange,
             className: 'form-control mr-sm-2'
@@ -118,11 +120,12 @@ class Landing extends Component {
                         <div className="row h-100">
                             <div className="col-md-6 h-100 d-flex flex-column justify-content-center">
                                 <h1 className="landing-title">
-                                    Economisez votre argent avec Gaspal
-                        </h1>
+                                    {t('landing.h1')}
+                                </h1>
                                 <h2 className="landing-subtitle mt-2">
-                                    Trouvez les stations-service les moins chères autour de vous.
-                         </h2>
+                                    {t('landing.subtitle')}
+
+                                </h2>
                                 <div className="landing-search mt-4">
                                     <form class="form-inline my-2 my-lg-0">
                                         <Autosuggest
@@ -142,8 +145,8 @@ class Landing extends Component {
                             </div>
                             <div className="col-md-6 h-100 justify-content-center align-items-center d-flex flex-column ">
                                 <div className="landing-phone">
-                                    
-                         </div>
+
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -152,13 +155,13 @@ class Landing extends Component {
 
                 <div className="container">
                     <div className="row">
-                        <h3 className="ml-auto mr-auto mt-5 mb-5 title">Nos nouvelles</h3>
+                        <h3 className="ml-auto mr-auto mt-5 mb-5 title">{t('landing.news')}</h3>
                     </div>
                     <div className="row">
                         {this.state.posts.map(post => {
                             return (
                                 <div className="col-md-4 col-sm-12">
-                                    <a  className = "blog-post" href={("https://blog.gaspalapp.com" + post.url)} target="_blank">
+                                    <a className="blog-post" href={("https://blog.gaspalapp.com" + post.url)} target="_blank">
                                         <div className="card" style={{ width: "18rem" }}>
                                             <img className="card-img-top" src={(post.feature_image.includes('https')) ? (post.feature_image) : ("https://blog.gaspalapp.com" + post.feature_image)} alt="Card  cap" />
                                             <div className="card-body">
@@ -178,18 +181,9 @@ class Landing extends Component {
                 </div>
 
 
-
-
-
-
-
-
-
-
-
-                <div id= 'application-mobile' className="container-fluid">
+                <div id='application-mobile' className="container-fluid">
                     <div className="row">
-                        <h3 className="ml-auto mr-auto mt-5 mb-1 title">Application mobile</h3>
+                        <h3 className="ml-auto mr-auto mt-5 mb-1 title">{t('landing.mobile')}</h3>
                     </div>
                     <div style={backgroundFeatures} className="row mt-5">
                         <div className="col-md-1"></div>
@@ -198,10 +192,13 @@ class Landing extends Component {
                         <div className="col-md-5 d-flex justify-content-between flex-column pl-5">
                             <div>
                                 <div className="feature-title mt-4">
-                                    Choisissez votre type de carburant
+                                    {t('landing.feature1')}
+
+
                                 </div>
                                 <div className="feature-subtitle">
-                                    Gaspal permet de voir le prix du diesel, sans plomb 95, sans plomb 98, E85, E10 ainsi que GPL.
+                                    {t('landing.feature1_sub')}
+
                                 </div>
                             </div>
 
@@ -218,38 +215,46 @@ class Landing extends Component {
 
                             <div>
                                 <div className="feature-title mt-4">
-                                    Trouvez la station d’essence la moins chère à côté de vous
-                            </div>
+                                    {t('landing.feature2')}
+
+                                </div>
                                 <div className="feature-subtitle">
-                                    Gaspal permet de voir le prix du diesel, sans plomb 95, sans plomb 98, E85, E10 ainsi que GPL.
-                            </div>
+                                    {t('landing.feature2_sub')}
+
+                                </div>
                             </div>
 
 
 
                             <div>
                                 <div className="feature-title mt-4">
-                                    Choisissez la répresentation des stations la plus comfortable
-        </div>
+                                    {t('landing.feature3')}
+
+                                </div>
                                 <div className="feature-subtitle">
-                                    Les stations sont réprésentées soit sur une carte, soit sous forme d’une liste.
-        </div>
+                                    {t('landing.feature3_sub')}
+
+                                </div>
                             </div>
                             <div>
                                 <div className="feature-title mt-4">
-                                    Faites un itinéraire jusqu’à la station choisie
-        </div>
+                                    {t('landing.feature4')}
+
+                                </div>
                                 <div className="feature-subtitle">
-                                    Les stations sont réprésentées soit sur une carte, soit sous forme d’une liste.
-        </div>
+                                    {t('landing.feature4_sub')}
+
+                                </div>
                             </div>
                             <div className="mb-5">
                                 <div className="feature-title mt-4">
-                                    Consultez vos dépense
-        </div>
+                                    {t('landing.feature5')}
+
+                                </div>
                                 <div className="feature-subtitle">
-                                    L’argent que vous avez dépensé peut être ajout dans notre outil de suivi budgétaire afin de vous aider à gérer votre budget.
-        </div>
+                                    {t('landing.feature5_sub')}
+
+                                </div>
                             </div>
 
                         </div>
@@ -270,4 +275,4 @@ const mapDispatchToProps = (dispatch) => {
     }
 }
 
-export default connect(null, mapDispatchToProps)(Landing)
+export default connect(null, mapDispatchToProps)(withTranslation()(Landing))
