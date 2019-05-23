@@ -4,7 +4,7 @@ import iPhone from '../img/iphone-landing.png';
 import Autour from '../img/autour.svg';
 import Budget from '../img/budjet.svg';
 import Carburant from '../img/carburant.png';
-import Itineraire from '../img/itinéraire.svg';
+import Itineraire from '../img/itineraire.svg';
 import Like from '../img/like.svg';
 import List from '../img/list.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
