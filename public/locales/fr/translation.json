@@ -1,20 +1,25 @@
 {
     "landing": {
+      "tick1":"Disponible en <1>France, Espagne et Italie</1>;",  
+      "tick2":"<0>Application mobile:</0> trouvez les stations les moins chères et naviguez vers elles;",
+      "tick3":"<0>Application Web:</0> entrez le nom de votre ville dans le champ ci-dessous pour rechercher les stations les moins chères.",
       "h1": "Economisez votre argent avec Gaspal",
       "subtitle": "Trouvez les stations-service les moins chères autour de vous.",
-      "address": "Address",
+      "address": "Adresse",
       "news": "Nos nouvelles",
       "mobile": "Application mobile",
       "feature1": "Choisissez votre type de carburant",
       "feature1_sub": "Gaspal permet de voir le prix du diesel, sans plomb 95, sans plomb 98, E85, E10 ainsi que GPL.",
       "feature2": "Trouvez la station d’essence la moins chère à côté de vous",
-      "feature2_sub": "Gaspal permet de voir le prix du diesel, sans plomb 95, sans plomb 98, E85, E10 ainsi que GPL.",
+      "feature2_sub": "Apprenez et comparez le prix de chaque station-service en quelque secondes!",
       "feature3": "Choisissez la répresentation des stations la plus comfortable",
       "feature3_sub": "Les stations sont réprésentées soit sur une carte, soit sous forme d’une liste.",
       "feature4": "Faites un itinéraire jusqu’à la station choisie",
-      "feature4_sub": "Les stations sont réprésentées soit sur une carte, soit sous forme d’une liste.",
+      "feature4_sub": "Lancez une application de navigation GPS pour vous guider vers une station.",
       "feature5": "Consultez vos dépense",
-      "feature5_sub": "L’argent que vous avez dépensé peut être ajout dans notre outil de suivi budgétaire afin de vous aider à gérer votre budget."
+      "feature5_sub": "L’argent que vous avez dépensé peut être ajout dans notre outil de suivi budgétaire afin de vous aider à gérer votre budget.",
+      "feature6": "Notez notre application",
+      "feature6_sub":"Notre équipe est toujours très attentive à nos utilisateurs. Ecrivez un commentaire sur l'Appstore/Play Store ou envoyez nous un email."
     },
 
     "footer": {

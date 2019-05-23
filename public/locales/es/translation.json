@@ -1,0 +1,56 @@
+{
+    "landing": {
+      "tick1":"Disponible en <1>España, Italia y Francia</1>;",  
+      "tick2":"<0>Aplicación móvil:</0> encuentra las estaciones más baratas y navega hasta ellas;",
+      "tick3":"<0>Aplicación web:</0> introduzca el nombre de su ciudad en el campo de abajo para buscar las emisoras más baratas.",
+      "h1": "Precios de las gasolineras",
+      "subtitle": "Encuentra las gasolineras más baratas a tu alrededor.",
+      "address": "Dirección",
+      "news": "Nos nouvelles",
+      "mobile": "Application mobile",
+      "feature1": "Elija su tipo de gasolina",
+      "feature1_sub": "Gaspal le permite ver el precio del diesel, 95 sin plomo, 98 sin plomo, E85, E10 y GLP.",
+      "feature2": "Encuentra la gasolinera más barata a tu lado",
+      "feature2_sub": "Aprenda y compare el precio de cada gasolinera en segundos!",
+      "feature3": "Elija la representación más cómoda de la estación",
+      "feature3_sub": "Las estaciones están representadas en un mapa o en forma de lista.",
+      "feature4": "Hacer un itinerario hasta la estación elegida",
+      "feature4_sub": "Inicie una aplicación de navegación GPS para guiarle a una estación.",
+      "feature5": "Compruebe sus gastos",
+      "feature5_sub": "El dinero que ha gastado puede ser añadido a nuestra herramienta de seguimiento de presupuestos para ayudarle a gestionar su presupuesto.",
+      "feature6": "Evalúe nuestra aplicación",
+      "feature6_sub":"Nuestro equipo está siempre a la escucha de nuestros usuarios. Escribe un comentario sobre la Appstore/Play Store o envíanos un correo electrónico."
+    },
+
+    "footer": {
+        "download": "Descargar ahora",
+        "contact": "Contacte con nosotros!"
+    },
+
+    "navbar": {
+        "home": "Página inicial ",
+        "web": "Aplicación web",
+        "mobile": "Applicaton mobile"
+    },
+
+    "popup": {
+        "type": "Elija su tipo de gasolina",
+        "diesel": "Diesel - B7",
+        "SP95": "Sin plomo 95 - E5",
+        "SP98": "Sin plomo 98 - E5",
+        "E85": "Superetanol - E85",
+        "E10": "E10",
+        "GPL": "GLP"
+    },
+
+    "list": {
+        "title":"Listas de gasolineras"
+    },
+
+    "details": {
+        "title": "Detalles de la gasolinera",
+        "price": "Precios de la gasolina",
+        "return": "Volver al listado de gasolineras"
+
+    }
+}

@@ -3,7 +3,7 @@ import ReactMapGL, { Marker, FlyToInterpolator } from 'react-map-gl';
 import axios from 'axios';
 import Popup from './Popup'
 import { connect } from 'react-redux'
-import Geocoder from 'react-map-gl-geocoder'
+// import Geocoder from 'react-map-gl-geocoder'
 import Bubble from '../img/bubble.png'
 import { easeCubic } from 'd3-ease';
 
@@ -152,11 +152,11 @@ class Map extends PureComponent {
 
           {stationList}
 
-          <Geocoder
+          {/* <Geocoder
             mapRef={this.mapRef}
             onViewportChange={this.handleGeocoderViewportChange}
             mapboxApiAccessToken={MAPBOX_TOKEN}
-          />
+          /> */}
         </ReactMapGL>
 
         {this.state.showPopup &&
