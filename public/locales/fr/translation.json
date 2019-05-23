@@ -52,5 +52,10 @@
         "price": "Prix de l'essence",
         "return": "Retourner à la liste des stations"
 
+    },
+
+    "meta": {
+        "description": "L'application qui vous permet de connaître le prix de l'essence dans chaque station en France en quelques secondes!",
+        "title": "Gaspal - Prix de l'essence"
     }
 }

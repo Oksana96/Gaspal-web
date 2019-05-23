@@ -52,5 +52,10 @@
         "price": "Precios de la gasolina",
         "return": "Volver al listado de gasolineras"
 
+    },
+
+    "meta": {
+        "description": "La aplicación que le permite conocer el precio de la gasolina en cada una de las gasolineras de España en pocos segundos!",
+        "title": "Gaspal - Precio de gasolina"
     }
 }

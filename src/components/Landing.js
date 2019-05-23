@@ -10,7 +10,7 @@ import List from '../img/list.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { NavLink } from 'react-router-dom';
 import * as geo from '../helpers/mapbox-geocoder';
-// import Autosuggest from 'react-autosuggest';
+import Autosuggest from 'react-autosuggest';
 import { connect } from 'react-redux';
 import axios from 'axios';
 import { withTranslation, Trans } from 'react-i18next';
@@ -143,7 +143,7 @@ class Landing extends Component {
                                     </div>
                                     <div className="landing-search d-flex justify-content-center">
                                         <form class="form-inline my-2 my-lg-0">
-                                            {/* <Autosuggest
+                                            <Autosuggest
                                                 suggestions={suggestions}
                                                 onSuggestionsFetchRequested={this.getSuggestions}
                                                 onSuggestionsClearRequested={this.onSuggestionsClearRequested}
@@ -151,7 +151,7 @@ class Landing extends Component {
                                                 renderSuggestion={renderSuggestion}
                                                 inputProps={inputProps}
                                                 onSuggestionSelected={this.onSuggestionSelected}
-                                            /> */}
+                                            />
                                             <NavLink to='/web-app' className="btn btn-outline-light my-2 my-sm-0" onClick={this.handleClick}>
                                                 <FontAwesomeIcon icon="search" />
                                             </NavLink>

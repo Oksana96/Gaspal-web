@@ -49,6 +49,11 @@
         "price": "Prezzi della benzina",
         "return": "Ritorna all'elenco delle stazioni"
         
+    },
+
+    "meta": {
+        "description": "L'applicazione che ti permette di conoscere in pochi secondi il prezzo della benzina in ognuna delle stazioni di servizio in Italia!",
+        "title": "Gaspal - Prezzi benzina"
     }
 
 }
