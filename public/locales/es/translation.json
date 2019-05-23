@@ -24,7 +24,9 @@
 
     "footer": {
         "download": "Descargar ahora",
-        "contact": "Contacte con nosotros!"
+        "contact": "Contacte con nosotros!",
+        "facebook":"https://www.facebook.com/gaspalES",
+        "twitter": "https://twitter.com/GaspalEs"
     },
 
     "navbar": {

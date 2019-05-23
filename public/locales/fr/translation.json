@@ -24,7 +24,10 @@
 
     "footer": {
         "download": "Téléchargez maintenant",
-        "contact": "Contactez-nous !"
+        "contact": "Contactez-nous !",
+        "facebook": "https://www.facebook.com/gaspalFR/",
+        "twitter": "https://twitter.com/gaspalfr",
+        "instagram": "https://www.instagram.com/gaspalfr/"
     },
 
     "navbar": {
@@ -55,7 +58,7 @@
     },
 
     "meta": {
-        "description": "L'application qui vous permet de connaître le prix de l'essence dans chaque station en France en quelques secondes!",
+        "description": "L'application qui vous permet de connaître le prix de l'essence dans chacune des stations-service en France en quelques secondes!",
         "title": "Gaspal - Prix de l'essence"
     }
 }
