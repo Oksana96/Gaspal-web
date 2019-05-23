@@ -36,7 +36,8 @@ i18next
 
 const sendHtml = (request, response) => {
     let result = html;
-    
+
+    result = result.replace(/\$LANG/g, request.language);
     result = result.replace(/\$OG_TITLE/g, request.t("meta.title"));
     result = result.replace(/\$OG_DESCRIPTION/g, request.t("meta.description"));
 
