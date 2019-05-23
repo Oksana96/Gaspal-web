@@ -1,0 +1,59 @@
+{
+    "landing": {
+    "tick1":"Disponibile in <1>Italia, Francia e Spagna</1>;",  
+    "tick2":"<0>Applicazione mobile:</0> trova le stazioni più economiche e naviga verso di esse;",
+    "tick3":"<0>Applicazione Web:</0> inserisci il nome della tua città nel campo sottostante per cercare le stazioni più economiche.",
+    "h1": "Prezzi dei distributori di carburante",
+    "subtitle": " Gaspal ti permette di visualizzare i prezzi dei distributori di carburante vicini a te.",
+    "address": "Indirizzo",
+    "news": "Nos nouvelles",
+    "mobile": "Applicazione",
+    "feature1": " Scegliete il vostro tipo di carburante",
+    "feature1_sub": "Visualizzare il prezzo del tuo tipo di benzina ( Diesel / Benzina / E85 / E10 / GPL )",
+    "feature2": "Trovare la stazione più economica su una mappa",
+    "feature2_sub": "Ottenere l’elenco delle stazioni più vicine",
+    "feature3": " Effettuare una ricerca del prezzo della benzina in altre città / province ",
+    "feature3_sub": "Trova in modo intelligente il rapporto distanza/prezzo più conveniente.",
+    "feature4": "Trovare la stazione meno cara sul tuo percorso",
+    "feature4_sub": "Avviare un’applicazione di navigazione GPS per orientarti verso una determinata stazione",
+    "feature5": " Controllare le tue spese ",
+    "feature5_sub": " Controllare le tue spese giornaliere di benzina grazie allo strumento di monitoraggio del budget.",
+    "feature6": "Valuta l’applicazione",
+    "feature6_sub": "Il nostro team è sempre molto attento ai nostri utenti. Scrivi un commento sull'Appstore/Play Store o inviaci un'e-mail"
+   },
+
+   "footer": {
+    "download": "Disponibile su:",
+    "contact": "Contattaci per maggiori informazioni"
+  },
+
+   "navbar": {
+       "home": "Home page",
+       "web": "Applicazione Web",
+       "mobile": "Applicazione mobile"
+   },
+
+   "popup": {
+    "type": "Per favore seleziona il tuo tipo di benzina:",
+    "SP95": "Senza piombo 95 - E5",
+    "SP98": "Senza piombo 98 - E5",
+    "E85": "Superethanol - E85"
+    },
+
+    "list": {
+        "title":"Elenchi di stazioni"
+    },
+
+    "details": {
+        "title": "Dettagli della stazione",
+        "price": "Prezzi della benzina",
+        "return": "Ritorna all'elenco delle stazioni"
+        
+    },
+
+    "meta": {
+        "description": "L'applicazione che ti permette di conoscere in pochi secondi il prezzo della benzina in ognuna delle stazioni di servizio in Italia!",
+        "title": "Gaspal - Prezzi benzina"
+    }
+
+}

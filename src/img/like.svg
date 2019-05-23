@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="21px" viewBox="0 0 24 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Star</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-88.000000, -46.000000)" fill-rule="nonzero" stroke="#9B9B9B">
+            <path d="M106.385006,65.9070549 L105.166236,59.0971622 L110.30494,54.2968722 L103.200918,53.3076088 L100,47.0920817 L96.7990824,53.3076088 L89.69506,54.2968722 L94.8337638,59.0971622 L93.6149937,65.9070549 L100,62.690125 L106.385006,65.9070549 Z" id="Star"></path>
+        </g>
+    </g>
+</svg>

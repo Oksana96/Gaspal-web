@@ -7,6 +7,8 @@ import Geocoder from 'react-map-gl-geocoder'
 import Bubble from '../img/bubble.png'
 import { easeCubic } from 'd3-ease';
 
+import 'react-map-gl-geocoder/dist/mapbox-gl-geocoder.css'
+
 const MAPBOX_TOKEN = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
 
 const bubbleStyle = {
@@ -156,7 +158,7 @@ class Map extends PureComponent {
             mapRef={this.mapRef}
             onViewportChange={this.handleGeocoderViewportChange}
             mapboxApiAccessToken={MAPBOX_TOKEN}
-          />
+          /> 
         </ReactMapGL>
 
         {this.state.showPopup &&
