@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 
 const Details = (props) => {
     const { t } = useTranslation();
+
     const diesel = props.stationSelected.fuels.find(fuel => { return fuel.code_name === 'diesel' });
     const e95 = props.stationSelected.fuels.find(fuel => { return fuel.code_name === 'unleaded_95' });
     const e98 = props.stationSelected.fuels.find(fuel => { return fuel.code_name === 'unleaded_98' });
@@ -27,45 +28,48 @@ const Details = (props) => {
             <table className="table ml-2">
 
                 <tbody>
-                    <tr>
-                        <td>{t('popup.diesel')}</td>
-                        <td style={ diesel.code_name === codeName ? { color: props.stationSelected.color } : {}} className="font-weight-bold">{diesel.price}</td>
-                    </tr>
-                    {e95 ? (
+                    {diesel && (
+                        <tr>
+                            <td>{t('popup.diesel')}</td>
+                            <td style={diesel.code_name === codeName ? { color: props.stationSelected.color } : {}} className="font-weight-bold">{diesel.price}</td>
+                        </tr>
+                    )}
+
+                    {e95 && (
                         <tr>
                             <td>{t('popup.SP95')}</td>
-                            <td style={ e95.code_name === codeName ? { color: props.stationSelected.color } : {}} className="font-weight-bold">
-                                    {e95.price}
+                            <td style={e95.code_name === codeName ? { color: props.stationSelected.color } : {}} className="font-weight-bold">
+                                {e95.price}
                             </td>
                         </tr>
-                    ) : null}
-                    {e98 ? (
+                    )}
+                    {e98 && (
                         <tr>
                             <td>{t('popup.SP98')}</td>
-                            <td style={ e98.code_name === codeName ? { color: props.stationSelected.color } : {}} className="font-weight-bold">{e98.price}</td>
+                            <td style={e98.code_name === codeName ? { color: props.stationSelected.color } : {}} className="font-weight-bold">{e98.price}</td>
                         </tr>
-                    ) : null}
+                    )}
 
-                    {e85 ? (
+                    {e85 && (
                         <tr>
                             <td>{t('popup.E85')}</td>
-                            <td style={ e85.code_name === codeName ? { color: props.stationSelected.color } : {}} className="font-weight-bold">{e85.price}</td>
+                            <td style={e85.code_name === codeName ? { color: props.stationSelected.color } : {}} className="font-weight-bold">{e85.price}</td>
                         </tr>
-                    ) : null}
+                    )}
 
-                    {e10 ? (
+                    {e10 && (
                         <tr>
                             <td>{t('popup.E10')}</td>
-                            <td style={ e10.code_name === codeName ? { color: props.stationSelected.color } : {}} className="font-weight-bold">{e10.price}</td>
+                            <td style={e10.code_name === codeName ? { color: props.stationSelected.color } : {}} className="font-weight-bold">{e10.price}</td>
                         </tr>
-                    ) : null}
+                    )}
 
-                    {gpl ? (
+                    {gpl && (
                         <tr>
                             <td>{t('popup.GPL')}</td>
-                            <td style={ gpl.code_name === codeName ? { color: props.stationSelected.color } : {}} className="font-weight-bold">{gpl.price}</td>
+                            <td style={gpl.code_name === codeName ? { color: props.stationSelected.color } : {}} className="font-weight-bold">{gpl.price}</td>
                         </tr>
-                    ) : null}
+                    )}
                 </tbody>
             </table>
 
